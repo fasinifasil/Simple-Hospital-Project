@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}
+About Us
+{% endblock %}
+{% block content %}
+{% load static %}
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+
+<section class="about" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-5 p-0">
+				<img src="{% static '/images/hsp.jpg'%}" alt="" class="img-fluid" />
+			</div>
+			<div class="col-lg-6">
+				<div class="about-right">
+					<h4 class="main">Education And Career</h4>
+					<p>A hospital is a health care institution providing patient treatment with specialized health science and <br>
+						auxiliary healthcare staff and medical equipment. urgent health problems ranging from fire and accident victims,<br>
+						A district hospital typically is the major health care facility in its region, with many beds for intensive <br>
+						care and additional beds for who need long-term care. Specialized hospitals include trauma centers, <br>
+						rehabilitation hospitals, children's hospitals, seniors' (geriatric) hospitals, and hospitals for dealing<br>
+						with specific medical needs such as psychiatric treatment (see psychiatric hospital) and <br>
+						certain disease categories. Specialized hospitals can help reduce health care costs compared<br>
+						to general hospitals.[3] Hospitals are classified as general, specialty, or <br>
+						government depending on the sources of income received.</p>
+					<div class="row mt-sm-5 mt-4 about-right-inner">
+						<div class="col-sm-4 col-6 myphoto-sign text-center">
+							<img src="images/banner.jpg" alt="" class="img-fluid rounded-circle"/>
+							<img src="images/signature.png" alt="" class="img-fluid mt-3"/>
+
+						</div>
+
+                    </div></div></div>
+        </div>                </div>
+</section>
+
+<!-- //about -->
+{% endblock %}

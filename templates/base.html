@@ -1,0 +1,101 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="{% static '/css/boostrap.css' %}" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+
+    <title>{% block title %}{% endblock %}</title>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet"
+      href=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--    <nav class="navbar bg-primary navbar-expand-md ">-->
+      <div class="container">
+        <div class="col-2 text-left pl-md-0">
+          <a href="homepage" id="logoLink1"><img src="{% static '/images/log.png'%}" width="200" height="50"></a>
+
+        </div>
+
+        <div
+          class="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3">
+          <ul class="navbar-nav justify-content-center  fw-bold">
+            <li class="nav-item active">
+              <a class="nav-link text-secondary" href="{% url 'homepage' %}">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="{% url 'aboutpage' %}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="{% url 'bookingpage' %}">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="{% url 'doctorspage' %}">Doctors</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link text-secondary" href="{% url 'departmentpage' %}">Departments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="{% url 'contactpage' %}">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    {% block content %}
+
+
+    {% endblock %}
+
+
+
+
+
+
+
+
+    <section >
+      <footer class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-8">
+             <p class="text-secondary">Emergency Contact Number: 0123456789</p>
+            </div>
+            <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-end">
+                <p class="text-secondary">© 2022 City Hospital. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+
+  </body>
+
+</html>

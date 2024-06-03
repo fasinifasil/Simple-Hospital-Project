@@ -1,0 +1,95 @@
+.header{
+background: #bebcbc;
+}
+li:hover{
+    background-color:#adc6df;
+    border-radius:20px;
+    border:1px solid black;
+}
+#intro {
+  background-image: url('https://www.hospitalsafetygrade.org/media/image/leapfrog-anniversary-bg.jpg');
+  background-size: cover;
+	position: relative;
+}
+#dept{
+ background-image: url('https://wallpaperaccess.com/full/6800544.jpg');
+  background-size: cover;
+	position: relative;
+}
+.about{
+background-image: url('https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg');
+  background-size: cover;
+	position: relative;
+}
+a.scroll.bnr-btn{
+    background: gray;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+a.scroll.bnr-btn1 {
+    background: gray;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+a.scroll.bnr-btn i{
+    vertical-align: middle;
+}
+
+
+/*-- contact --*/
+.contact-form label {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+}
+.contact-form .form-control {
+    padding: 0.8rem;
+    color: #495057;
+    border: 1px solid #ddd;
+    border-radius: 0rem;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.contact-form textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 8em;
+}
+.contact-form button.btn.btn-default {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0rem;
+    margin-left: 1em;
+}
+
+.w3layouts-map iframe {
+    width: 100%;
+    min-height: 420px;
+    padding: 10px;
+    border: 4px solid #eee;
+}
+
+/*-- //contact --*/
+
+
